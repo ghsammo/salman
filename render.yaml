@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: discord-bot
+    env: python
+    buildCommand: pip install -r BOTHOST/render/uptimerobot/requirements.txt
+    startCommand: python BOTHOST/render/uptimerobot/server.py
+    envVars:
+      - key: DISCORD_TOKEN
+        sync: false
+      - key: DATABASE_URL
+        value: postgresql://neondb_owner:npg_liP7Mms3jZtd@ep-flat-mud-a5m7n2l1-pooler.us-east-2.aws.neon.tech/neondb?sslmode=require
