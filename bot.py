@@ -54,8 +54,11 @@ COMMAND_CATEGORIES = {
     'Utility': {
         'emoji': '<:Briefcase:1374848333956255884>',
         'commands': [
-            {'name': 'usericon', 'description': 'Displays a user\'s icon. Usage: .usericon [@user]'},
-            {'name': 'welcome', 'description': 'Sets the welcome channel. Usage: .welcome #channel'}
+            {'name': '<:Multipurpose:1373371000271409416> usericon', 'description': '<:Multipurpose:1373371000271409416> Displays a user\'s icon. Usage: .usericon [@user]'},
+            {'name': '<:Join:1373605236354056346> welcome', 'description': '<:Join:1373605236354056346> Sets the welcome channel. Usage: .welcome #channel'},
+            {'name': '<:Information:1374848638798397442> servericon', 'description': '<:Information:1374848638798397442> Displays the server\'s icon. Usage: .servericon'},
+            {'name': '<:Information:1374848638798397442> serverinfo', 'description': '<:Information:1374848638798397442> Displays information about the server. Usage: .serverinfo'},
+            {'name': '<:user:1374846273706000434> userinfo', 'description': '<:user:1374846273706000434> Displays information about a user. Usage: .userinfo [user]'}
         ]
     },
     'Fun': {
