@@ -53,7 +53,10 @@ COMMAND_CATEGORIES = {
     },
     'Utility': {
         'emoji': '<:Briefcase:1374848333956255884>',
-        'commands': [] # Commands are now loaded from the cog
+        'commands': [
+            {'name': 'usericon', 'description': 'Displays a user\'s icon. Usage: .usericon [@user]'},
+            {'name': 'welcome', 'description': 'Sets the welcome channel. Usage: .welcome #channel'}
+        ]
     },
     'Fun': {
         'emoji': '<:Multipurpose:1373371000271409416>',
